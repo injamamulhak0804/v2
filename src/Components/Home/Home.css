@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+.main{
+    width: 100%;
+    height: 100vh;
+    background: #685050;
+}
+.bgVideo{
+    width: 100%;
+    height: 100vh;
+    background-size: cover !important;
+    background-color: aqua;
+    overflow: hidden;
+}
+.video{
+    width: 200%;
+    height: 100%;
+    object-fit: cover; 
+    filter: blur(10px);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(24, 22, 24);
+}
+.content{
+    width: 45%;
+    height: 90%;
+    color: white;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 18%;
+    display: flex;        
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ccd6f6; */
+}
+.content h1{
+    font-size: 4vw;
+    text-align: start;
+    font-family: 'Tilt Prism', cursive;
+    letter-spacing: 0.2vw;
+    line-height: 4vw;
+}
+.intro{
+    margin: 2.5rem 0rem;
+    width: 75%;
+    font-size: 1rem;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+    word-spacing: 0.3rem;
+    line-height: 1.4rem;
+}
+
+/* Resposive */
+
+@media (max-width:800px) {
+    .content {
+        width: 100%;
+        top: 0;
+        left: 0%;
+        padding-left: 3vw;
+    }
+    .content h1{
+        font-size: 2rem;
+        line-height:2rem ;
+    }
+    .bgVideo {
+        width: 0%;
+    }
+    .intro{
+        width: 100%;
+        word-wrap: break-word;
+        font-size: 1.1rem;
+        text-align: justify;
+        padding: 0px 10px;
+        word-spacing: 1;
+    }
+}
+.link{
+    color: #9827af;
+    font-size: 1.2rem;
+    font-weight: 800;
+    cursor: pointer;
+    /* background-color: aliceblue; */
+    /* height: 100px; */
+}
+/* .link:hover {
+    .symbol{
+        color: aliceblue;
+        transform: rotateX('30deg');
+    }
+} */
+
+/* .link {
+    color: aliceblue;
+    position: relative;
+    transition: 1s;
+    transform: translate(-10%, -20%)
+    transform: rotate(60deg);
+} */
+
+
+

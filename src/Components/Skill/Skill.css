@@ -1,0 +1,126 @@
+.skill{
+    color: white;
+    background-color: black;
+    min-height: 100vh !important;
+    width: 100%;
+}
+.content-skill{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+.content-skill p, h1{
+    text-align: center;
+    
+}
+.content-skill p:first-child{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.562);
+}
+.content-in-skill{
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 0.4rem;
+    line-height: 1.7rem;
+    padding-bottom: 2rem;
+}
+.content-skill h1{
+    font-size: 4vw;
+    font-family: 'Tilt Prism', cursive;
+}
+.content-skill p:last-child {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.content-skill p:nth-child(3){
+    color: rgba(248, 236, 236, 0.644);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .content-skill {
+        width: 100%;
+        height: 100%;
+        /* background-color: rgb(9, 255, 0); */
+        padding: 0px 15px;
+    }
+    .content-skill p,
+    h1 {
+        text-align: start;
+        line-height: 1.7rem;
+    }
+    .content-in-skill {
+        width: 100%;
+        /* background-color: #5ed3f3; */
+        font-size: 1.1rem;
+        line-height: 1.9rem;
+        text-align: justify;
+        word-spacing: 0.3rem;
+        margin-top: 2rem;
+    }
+    .content-in-skill p {
+        text-align: justify;
+    }
+    .content-skill h1 {
+        font-size: 2.5rem;
+        font-family: 'Tilt Prism', cursive;
+    }
+}
+.skills-logo{
+    display: flex;
+    /* background-color: #5ed3f3; */
+    width: 60%;
+    min-height: 35vh;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    column-gap: 6rem;
+    row-gap: 3rem;
+    justify-content: center;
+    align-items: space-between;
+        /* background-color: #5ed3f3; */
+}
+.skills-logo .logo{
+    font-size: 5rem;
+}
+.skills-logo .js{
+    color: rgb(255, 255, 0);
+}
+.skills-logo .react {
+    color: #5ed3f3;
+}
+.skills-logo .node {
+    color: rgb(0, 128, 0);
+}
+.skills-logo .css {
+    color: #214ce5;
+}
+.skills-logo .html {
+    color: #dd4b25;
+}
+.skills-logo .express {
+    color: #696363d8;
+}
+.skills-logo .git {
+    color: white;
+}
+.skills-logo .Bootstrap {
+    color: #8512f7;
+}
+
+
+/* Responsive */
+
+@media (max-width: 700px) {
+    .skills-logo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .skills-logo .logo {
+        font-size: 3rem;
+    }
+}
